@@ -1,0 +1,15 @@
+{
+  "name": "git-test-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/hack2905/git-test-03.git)"
+  },
+  "author": "hack2905",
+  "license": "ISC"
+}
