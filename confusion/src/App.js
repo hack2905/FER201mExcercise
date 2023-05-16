@@ -1,14 +1,16 @@
+// import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
-import Player from './components/Players';
-import Footer from './components/Footer'
-
+// import Players from './components/Players';
+import Footer from './Footer';
+import Main from './components/Main';
 function App() {
   return (
     <div className='App'>
-     <Navigation/>
-     <Player/>
-     <Footer/>
+      <Navigation/>
+      {/* <Players/> */}
+      <Main/>
+      <Footer/>
     </div>
   );
 }
