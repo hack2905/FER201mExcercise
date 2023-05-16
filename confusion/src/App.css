@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.back-ground {
+  background-color: black;
+  text-align: left;
+  padding: 20px 0px;
+ margin: auto;
+  
+}
+.active{
+  color:aliceblue;
+  padding: 17px 20px;
+  text-decoration: none;
+}
+.active:hover{
+  background-color: rgba(255, 255, 0, 0.5);
+  padding: 25px 20px;
+}
+.column{
+  float: left;
+  width: 30%;
+  margin: 20px;
+  background-size: contain;
+}
+.card img{
+  width:100% ;
+  height: auto;
+}
+
+.but{
+  background-color: black;
+}
+div.title{
+  background-color: black;
+  text-align: left;
+  padding: 1px 0px;
+}
+.footer{
+  
+}
