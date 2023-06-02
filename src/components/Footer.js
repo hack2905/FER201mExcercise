@@ -1,10 +1,16 @@
-import React, { Component } from 'react'
-export default class Navigation extends Component {
+import React, { Component } from "react";
+export default class Footer extends Component {
     render() {
         return (
-            <div className="footer">
-                <p>copyright © 2022</p>
+            <div id='footer'>
+                <footer className="foot">
+
+                    <div id="copyright">
+                        &copy; copyright © 2022
+                    </div>
+
+                </footer>
             </div>
         )
-    }
+    };
 }
