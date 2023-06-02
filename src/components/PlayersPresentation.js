@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function PlayersPresentation({players}) {
-    //console.log(players);
    return (
     <div className='container'>
        {players.map((player)=>(
@@ -10,9 +9,13 @@ export default function PlayersPresentation({players}) {
        <img src={player.img}/>
          <h3>{player.name}</h3>
          <p className='title'>{player.club}</p>
-         <p className="but"><button>Detail</button></p>
+         <p><button>
+              Detail
+            </button>
+            </p>
        </div>
      </div>
-    ))}</div>   
+    ))}
+    </div>   
  )
 }
