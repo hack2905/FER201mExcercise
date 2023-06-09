@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: contents;
+}
+.back-ground {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0px;
+  padding-left: 25px;
+}
+.active {
+  color: aliceblue;
+  padding: 17px 20px;
+  text-decoration: none;
+}
+.active:hover{
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin: 10px;
+  background-size: auto;
+  background-color: rgb(236, 232, 232);
+}
+.card{
+  background-color: #333;
+  width: 480px;
+  height:550px;
+}
+
+.card img {
+  width: 400px;
+  height:400px;
+}
+
+.but {
+  background-color: black;
+}
+
+.but button {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+h3{
+  color: aliceblue;
+}
+button {
+  background-color: #333;
+  color:aliceblue
+}
+p.title{
+  color: aliceblue;
+}
