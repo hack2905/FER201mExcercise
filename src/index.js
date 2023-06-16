@@ -5,15 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './components/ThemeConText';
 import { BrowserRouter } from 'react-router-dom';
-
+import M from 'materialize-css';
+import 'materialize-css/dist/css/materialize.min.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider>
       <BrowserRouter>
-      <App />
+        <App />
       </BrowserRouter>
-      
     </ThemeProvider>
   </React.StrictMode>
 );
