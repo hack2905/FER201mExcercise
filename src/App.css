@@ -68,8 +68,8 @@ div.title {
 }
 
 .card img {
-  width: 100%;
-  height: auto;
+  width: 450px;
+  height: 460px;
 }
 
 .card {
@@ -101,6 +101,7 @@ button {
   background-color: rgb(167, 167, 3);
   width: 100%;
   color: white;
+  margin-bottom: -1000px;
 }
 
 .overlay {
@@ -188,4 +189,43 @@ nav {
   height: 30px;
   text-align: left;
   padding: 20px 0px;
+}
+.container .detail .row .image_player {
+  /* height: 50rem; */
+  height: 100%;
+  display: block;
+  padding: 0 26rem;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.container .detail .row .image_player img {
+  width: 100%;
+}
+
+.container .detail .row .info_player {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .column .card {
+  padding: 10px;
+}
+
+.container .column .card h3 {
+  margin: 5px;
+  color: rgb(214, 112, 3);
+}
+
+.container .detail .row .info_player .info_player_2 h5 {
+  margin: 5px;
+  color: gray;
+}
+
+.container {
+  margin: 10px;
+}
+
+.container .detail {
+  margin:20px;
 }
