@@ -227,3 +227,32 @@ button {
   color: rgb(214, 112, 3);
   font-size: 25px;
 }
+
+/* -----------About------------- */
+
+.custom-div {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+/* --------------modalCase-------------- */
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vmax;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/* -------------News-------------- */
+.box-news{
+  background-color: rgb(184, 173, 173);
+  margin: 30px;
+}
+.box-news p{
+  text-align: center;
+  font-weight: 200;
+  font-size: larger;
+}

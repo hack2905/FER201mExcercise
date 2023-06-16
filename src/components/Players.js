@@ -2,6 +2,7 @@ import React from "react";
 import { Players } from "../shared/ListOfPlayers";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Icon, CardTitle, Row, Col, Card, Container  } from "react-materialize";
 export default function Player(){
   const [players, setPlayer] = useState([]);
     return (
