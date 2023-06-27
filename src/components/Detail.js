@@ -24,10 +24,7 @@ export default function Detail() {
                         </a>
                         {isOpen && <ModalCase setIsOpen={setIsOpen} film={film} />}
         	<h4>{film.club}</h4>
-      		
-      		<p>{film.info}</p>
-
-              
+      		<p>{film.info}</p>              
       		<div className='product-bottom-details'></div>
     	</div>
   </div>
