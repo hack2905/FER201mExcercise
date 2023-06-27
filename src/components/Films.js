@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Films } from "../shared/ListOfFilms";
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-import { ThemeContext } from "./ThemeContext";
+
 export default function Film(){
   const [films, setFilms] = useState([]);
     return (
